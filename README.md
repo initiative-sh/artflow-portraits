@@ -12,3 +12,5 @@ From the [project FAQ](https://artflow.ai/about/):
 
 > **Can I use the images from Artflow in my project?**
 > Yes, as long as you attribute Artflow. All images are licensed under CC BY. You can find more information in our Terms of Service.
+
+**Note**: The creator and copyright holder of these works is artflow.ai, and must be credited accordingly. Your use of the works is subject to the [terms of service](https://artflow.ai/about/#terms).
