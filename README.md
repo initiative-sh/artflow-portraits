@@ -1,10 +1,12 @@
 # artflow.ai portraits
 
-This is a collection of portraits scraped from artflow.ai. The images are
-licensed by the copyright holder ([artflow.ai](https://artflow.ai/)) under the
-[Creative Commons Attribution](https://creativecommons.org/licenses/by/4.0/)
-license, but are not made available by the copyright holder in a format that can
-be easily consumed in bulk.
+This is a collection of 0 portraits scraped from artflow.ai.
+
+The images are licensed by the copyright holder
+([artflow.ai](https://artflow.ai/)) under the [Creative Commons
+Attribution](https://creativecommons.org/licenses/by/4.0/) license, but are not
+made available by the copyright holder in a format that can be easily consumed
+in bulk.
 
 The images in this repository are automatically collected, converted from WEBP
 to JPEG, and saved according to the following format:
