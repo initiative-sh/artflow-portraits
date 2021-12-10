@@ -2,6 +2,7 @@
 set -euxo pipefail
 
 cd "$(dirname "$0")" || return
+export PATH="$PATH:/snap/bin"
 
 source .env
 
@@ -29,5 +30,5 @@ commit \
 git push
 
 if command -v gh && [ -v GITHUB_TOKEN ]; then
-  gh release -R initiative-sh/artflow-portraits create --notes "$image_count portraits as of $date ($size)" "$datever"
+  env GITHUB_TOKEN="$GITHUB_TOKEN" gh release -R initiative-sh/artflow-portraits create --notes "$image_count portraits as of $date ($size)" "$datever"
 fi
