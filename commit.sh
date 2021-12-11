@@ -29,6 +29,6 @@ commit \
 
 git push
 
-if command -v gh && [ -v GITHUB_TOKEN ]; then
+if [[ -v GITHUB_TOKEN && "$(date +%w)" -eq 1 ]] && command -v gh; then
   env GITHUB_TOKEN="$GITHUB_TOKEN" gh release -R initiative-sh/artflow-portraits create --notes "$image_count portraits as of $date ($size)" "$datever"
 fi
