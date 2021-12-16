@@ -11,7 +11,7 @@ git pull
 git add images
 
 image_count="$(printf "%'d" "$(find images -type f | wc -l)")"
-new_image_count="$(printf "%'d" "$(git status --porcelain=v1 | grep -c '^A images')")"
+new_image_count="$(printf "%'d" "$(git status --porcelain=v1 | grep -c '^A  images')")"
 date="$(date +%Y-%m-%d)"
 datever="$(date +%Y.%m.%d)"
 size="$(du -sb --si images | awk '{ print $1; }' | sed 's/[A-Za-z]*$/ \0B/')"
