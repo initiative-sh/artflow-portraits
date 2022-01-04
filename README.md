@@ -1,6 +1,6 @@
 # artflow.ai portraits
 
-This is a collection of 45,535 portraits scraped from artflow.ai.
+This is a collection of 45,557 portraits scraped from artflow.ai.
 
 The images are licensed by the copyright holder
 ([artflow.ai](https://artflow.ai/)) under the [Creative Commons
