@@ -8,7 +8,7 @@ source .env
 
 git pull
 
-if [[ "$(git status --porcelain=v1 | grep -c '^\(??\|A \) images')" -lt 100 ]]; then
+if [[ "$(git status --porcelain=v1 | grep -c '^\(??\|A \) images')" -ge 100 ]]; then
   git add images
 
   image_count_pretty="$(printf "%'d" "$(find images -type f | wc -l)")"
