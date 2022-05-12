@@ -145,8 +145,8 @@ function scrape_single(string $text_prompt, string $id) {
 
 function scrape_listing() {
     $source_url = mt_rand(0, 9)
-        ? "https://artflow.ai/show_community_work"
-        : "https://artflow.ai/show_editor_choice";
+        ? "https://artflow.ai/api/show_community_work"
+        : "https://artflow.ai/api/show_editor_choice";
 
     echo "Scraping {$source_url}\n";
 
